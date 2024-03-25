@@ -1,0 +1,41 @@
+.nav-contents{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px lightblue;
+}
+
+.left-contents,.right-contents{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+}
+
+.right-contents button{
+  height: 45px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: aliceblue;
+  font-weight: 800;
+  border: none;
+  background-color: rgb(46, 216, 159);
+  /* align-content: center; */
+}
+
+.right-contents button:hover{
+  background-color: black;
+  color:  rgb(46, 216, 159);;
+}
+
+.icon{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
